@@ -2,9 +2,11 @@
 
 use_frameworks!
 platform :ios, '7.0'
+pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'FirebaseUI'
+pod 'GoogleSignIn'
 
 target 'DatabaseExample' do
 end
